@@ -10,9 +10,9 @@ LOG_CHANNEL_ID = 0
 DELETE_LOOKBACK_HOURS = 24
 
 # If True, ban the user after triggering. If False, only delete messages.
-BAN_ON_TRIGGER = True
+BAN_ON_TRIGGER = False
 
-# Channel warmer options (sends a message then quickly deletes it)
+# Channel warmer options (sends a message then quickly deletes it) to prevent the channel from becoming "stale."
 CHANNEL_WARMER_ENABLED = False
 CHANNEL_WARMER_RUN_ON_STARTUP = True
 CHANNEL_WARMER_DELETE_DELAY_SECONDS = 1
