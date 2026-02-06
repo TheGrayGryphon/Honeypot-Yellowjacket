@@ -5,7 +5,7 @@ Yes, this was written pretty much entirely by generative AI. Yes, I did due dill
 - Monitors a honeypot channel and reacts to any text message or image-only message.
 - Deletes the user’s recent messages across the guild for the configured lookback window.
 - Optionally bans the user if `BAN_ON_TRIGGER = True`.
-- Logs actions to the log channel and posts a “stung count” embed in the honeypot channel.
+- Logs actions to the log channel and keeps track of the number of victims in the honeypot channel.
 
 ## Create the bot in the Discord Developer Portal
 1. Go to the Developer Portal and create a new application.
